@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html> 	
+<head> 
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="tictactoe.css"> 
+</head> 
+<body> 
+	<div id="container"> 
+		<h1>TIC TAC TOE</h1> 
+		<p> 
+			Game starts by just Tap on box<br><br>
+			First Player X <br><br>
+			And Second Player O
+		</p> 
+		<div id="background"> 
+			<div class="row"> 
+				<input  id= "b1" class="box" onclick="one(); main()" > 
+				<input  id= "b2" class="box" onclick="two(); main()" > 
+				<input  id= "b3" class="box" onclick="three(); main()" > 
+			</div> 
+			<div class="row"> 
+				<input  id= "b4" class="box" onclick="four(); main()" > 
+				<input  id= "b5" class="box" onclick="five(); main()" > 
+				<input  id= "b6" class="box" onclick="six(); main()" > 
+			</div> 
+			<div class="row"> 
+				<input  id= "b7" class="box" onclick="seven(); main()" > 
+				<input  id= "b8" class="box" onclick="eight();main()" > 
+				<input  id= "b9" class="box" onclick="nine();main()" > 
+			</div> 
+		</div> 
+
+		<p id="print"></p> 
+	</div>
+	<script src="tictactoe.js"></script>  
+</body> 
+</html>

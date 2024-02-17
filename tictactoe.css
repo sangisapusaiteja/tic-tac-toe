@@ -1,0 +1,75 @@
+body{
+	background-color: black;
+	height: 100vh;
+	display: flex; 
+	flex-direction: column; 
+	align-items: center;  
+	justify-content: center;
+}
+#container { 
+	text-align: center; 
+	background-color: black;
+} 
+h1 { 
+	color: white;	
+} 
+p { 
+	font-family: 'Times New Roman', Times, serif; 
+	color: blueviolet; 
+} 
+#background{
+	background-color: blueviolet;
+	padding: 5px;
+	
+}
+.row { 
+	display: flex; 
+} 
+.box {
+	width: 100px; 
+	height: 100px; 
+	font-size: 30px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+#b1{ 
+    border:1px solid black;
+} 
+
+#b2{ 
+	border:1px solid black;
+} 
+
+#b3 { 
+	border:1px solid black;
+}
+#b4 { 
+	border:1px solid black; 
+} 
+	
+#b5 { 
+	border:1px solid black;
+} 
+
+#b6 { 
+	border:1px solid black; 
+}
+
+#b7 { 
+	border:1px solid black;  
+} 
+#b8 { 
+	border:1px solid black;  
+} 
+
+#b9 { 
+	border:1px solid black;  
+}    
+#print { 
+	font-family: 'Times New Roman', Times, serif; 
+	color:blueviolet; 
+	font-size: 20px; 
+} 
+
+
+
